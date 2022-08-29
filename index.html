@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jossie Quintero | Personal Portapholio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./assets/icons/logo.svg" alt="logo" class="header__logo">
+        <p class="header__logo-nombre">Daniel</p>
+        <nav class="header__nav">
+            <div id="nav__toggle-menu" class="nav__toggle-menu">
+                <span id="toggle-menu__icon" class="toggle-menu__icon"></span>
+            </div>
+            <ul id="nav__menu" class="nav__menu">
+                <li class="menu__item">
+                    <a href="#home" class="item__link" id="ho">Home</a>
+                </li>
+                <li class="menu__item ">
+                    <a href="#biography" class="item__link" id="ab">About</a>
+                </li>
+                <li class="menu__item ">
+                    <a href="#projects" class="item__link " id="pr">Projects</a>
+                </li>
+                <li class="menu__item menu__item--especial ">
+                    <a href="https://www.instagram.com/santiago_12074/" target="_blank" class="item__link ">Hire Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" class="main ">
+        <section class="main__home" id="home">
+            <h1 class="home__title ">I’m Daniel Santiago.</h1>
+
+            <h2 class="home__subtitle ">Multimedia Designer</h2>
+            <p class="home__decoration">Daniel</p>
+            <picture class="home__photo-home ">
+                <source class="home__photo-home " media="(min-width: 800px) " srcset="./assets/img/photoOne/photoOne1200.webp ">
+                <source class="home__photo-home " media="(min-width: 400px) " srcset="./assets/img/photoOne/photoOne800.webp ">
+                <img class="home__photo-home " src="./assets/img/photoOne/photoOne400.webp " alt="Principal photography " />
+            </picture>
+            <div class="home__social-container ">
+                <span class="social-container__text">Design is my passion</span>
+                <a href="https://www.instagram.com/santiago_12074/" target="_blank">
+                    <span class="social-container__icon"></span>
+                </a>
+            </div>
+        </section>
+        <section class="main__biography" id="biography">
+            <figure class="biography__figure">
+                <img src="./assets/img/photo-two.webp" alt="">
+            </figure>
+            <div class="biography__description">
+                <h2 class="description__tittle">DIGITAL DESIGNER CURRENTLY BASED IN COLOMBIA
+                </h2>
+                <p class="description__text">Multimedia designer, currently finishing my studies, I have worked on frelace projects and I have extensive knowledge with the majority of recognized applications in this field.
+                </p>
+                <button class="button">
+                    <img src="./assets/icons/mail-bulk.svg" alt="">
+                    <span class="button__text"><a href="mailto:danielsanti0275@gmail.com">Contact me</a></span>
+                </button>
+            </div>
+            <hr class="biography__hr">
+        </section>
+        <hr class="divider">
+        <section class="main__skills">
+            <div class="skills__f-work">
+                <span class="f-work__icon"></span>
+                <p class="f-work__text">Featured Work</p>
+            </div>
+            <article class="skills__content">
+                <section class="skills__box-skills">
+                    <h2 class="box-skills__title">
+                        WHAT DO I HELP
+                    </h2>
+                    <p class="box-skills__text">
+                        I have enough knowledge to create attractive and consistent products in marketing campaigns, design and audiovisual editing, domain in some of the majority of tools in the Adobe library <br>"You need me now"
+                    </p>
+                </section>
+                <div class="skills__email-me">
+                    <span class="email-me__icon"></span>
+                    <p class="email-me__text">email me</p>
+                </div>
+                <div class="skills__count-projects">
+                    <p class="count-projects__number">50+</p>
+                    <p class="count-projects__text">Project Completed</p>
+                </div>
+            </article>
+            <section class="skills__images">
+                <img src="./assets/icons/image1.svg" class="images images--ilustator" alt="skill1" />
+                <img src="./assets/icons/image2.svg" class="images images--premiere" alt="skill2" />
+                <img src="./assets/icons/image4.svg" class="images images--efects" alt="skill4" />
+                <img src="./assets/icons/image3.svg" class="images images--lightroom" alt="skill3" />
+                <img src="./assets/icons/image5.svg" class="images images--photoshop" alt="skill5" />
+            </section>
+            <hr class="skills__hr">
+        </section>
+        <hr class="divider">
+        <section class="main__personal-projects" id="projects">
+            <h1 class="personal-projects__title">PERSONAL PROJECTS</h1>
+            <section class="personal-projects__carousel">
+                <picture>
+                    <source media="(min-width:600px)" srcset="./assets/img/coffe_x2.webp" />
+                    <img src="./assets/img/coffe.webp" alt="coffe">
+                </picture>
+                <picture id="img2">
+                    <source media="(min-width:600px)" srcset="./assets/img/nestle_x2.webp" />
+                    <img src="./assets/img/nestle.webp" alt="nestle">
+                </picture>
+                <picture>
+                    <source media="(min-width:600px)" srcset="./assets/img/hand_x2.webp" />
+                    <img src="./assets/img/hand.webp" alt="hand">
+                </picture>
+            </section>
+        </section>
+    </main>
+    <footer class="footer ">
+        <p>© GlatesCode. All rights reserved.</p>
+    </footer>
+    <script src="./JS/main.js "></script>
+</body>
+
+</html>
