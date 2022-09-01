@@ -47,14 +47,9 @@ body {
 }
 
 .header__logo {
-    width: 33.46px;
-    height: 38.85px;
+    width: 200px;
+    margin-top: 2rem;
     margin-left: 1.5rem;
-}
-
-.header__logo-nombre {
-    font-size: 2rem;
-    color: var(--white);
 }
 
 .header__nav {
@@ -151,10 +146,6 @@ body {
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 37px;
-}
-
-.home__decoration {
-    display: none;
 }
 
 .home__photo-home {

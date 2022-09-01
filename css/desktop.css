@@ -4,7 +4,10 @@
 
 @media screen and (min-width: 1443px) {
     body {
-        background: linear-gradient(113.49deg, #912639 -26.12%, rgba(48, 59, 119, 0.96) 109.39%);
+        /* background: linear-gradient(113.49deg, #912639 -26.12%, rgba(48, 59, 119, 0.96) 109.39%); */
+        background-image: url('../assets/img/fondo.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .main {
         background: transparent;
@@ -12,9 +15,6 @@
         margin: 0 auto;
     }
     .header__logo {
-        z-index: 2;
-    }
-    .header__logo-nombre {
         z-index: 2;
     }
     .nav__menu {
@@ -28,13 +28,26 @@
     .menu__item--especial {
         border: solid 1px var(--white);
     }
+    .perfil{
+        display: flex;
+        max-width: 800px;
+        justify-content: center;
+        align-items: center;        
+    }
+
+
     .main__home {
         width: 100%;
         padding-top: 7.2rem;
         height: 117rem;
-        background: linear-gradient(113.49deg, rgba(145, 38, 57, 0.96) -30.3%, #303B77 68.47%);
+        /*background: linear-gradient(113.49deg, rgba(145, 38, 57, 0.96) -30.3%, #469ad3 68.47%);
+        */background: linear-gradient(159deg, rgb(0 0 0 / 96%) -30.3%, #469ad3 68.47%);
         transform: translateY(-7.2rem);
-    }
+        -webkit-transform: translateY(-7.2rem);
+        -moz-transform: translateY(-7.2rem);
+        -ms-transform: translateY(-7.2rem);
+        -o-transform: translateY(-7.2rem);
+}
     .home__title {
         padding-top: 10rem;
         font-size: 7rem;
@@ -43,22 +56,6 @@
     .home__subtitle {
         margin-bottom: 5.5rem;
         font-size: 2rem;
-    }
-    .home__decoration {
-        display: initial;
-        position: absolute;
-        width: 203px;
-        height: 30px;
-        left: 122px;
-        top: 583px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 30px;
-        letter-spacing: 27.8px;
-        color: rgba(255, 255, 255, 0.3);
-        transform: rotate(-90deg);
     }
     .home__photo-home {
         width: 536px;
