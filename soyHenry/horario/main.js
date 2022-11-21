@@ -1,5 +1,5 @@
 let GMT = document.getElementById('gmt');
-const url = 'http://worldtimeapi.org/api/ip';
+const url = 'https://worldtimeapi.org/api/ip';
 fetch(url)
 	.then(response => response.json())
 	.then(data =>{
